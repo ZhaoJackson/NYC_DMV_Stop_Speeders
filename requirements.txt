@@ -1,6 +1,0 @@
-duckdb
-pandas
-numpy
-streamlit
-plotly
-python-dotenv

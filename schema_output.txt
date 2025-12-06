@@ -1,0 +1,78 @@
+Registering views...
+  Registered speed_historic
+  Registered speed_test1
+  Registered speed_test2
+  Registered speed_test3
+  Registered traffic_historic
+  Registered traffic_test1
+  Registered traffic_test2
+  Registered traffic_test3
+
+--- SPEED CAMERAS SCHEMA ---
+                               speed_historic speed_test1 speed_test2 speed_test3
+Amount Due                            MISSING     MISSING     VARCHAR     MISSING
+County                                MISSING     MISSING     VARCHAR     MISSING
+Created At                            MISSING     MISSING     VARCHAR     MISSING
+Fine Amount                           MISSING     MISSING     VARCHAR     MISSING
+Interest Amount                       MISSING     MISSING     VARCHAR     MISSING
+Issue Day                             MISSING     MISSING     VARCHAR     MISSING
+Issue Month                           MISSING     MISSING     VARCHAR     MISSING
+Issue Year                            MISSING     MISSING     VARCHAR     MISSING
+Issuing Agency                        MISSING     MISSING     VARCHAR     MISSING
+Judgment Entry Date                   MISSING     MISSING     VARCHAR     MISSING
+License Type                          MISSING     MISSING     VARCHAR     MISSING
+Payment Amount                        MISSING     MISSING     VARCHAR     MISSING
+Penalty Amount                        MISSING     MISSING     VARCHAR     MISSING
+Plate                                 MISSING     MISSING     VARCHAR     MISSING
+Reduction Amount                      MISSING     MISSING     VARCHAR     MISSING
+State                                 MISSING     MISSING     VARCHAR     MISSING
+Summons Number                        MISSING     MISSING     VARCHAR     MISSING
+Violation                             MISSING     MISSING     VARCHAR     MISSING
+Violation Status                      MISSING     MISSING     VARCHAR     MISSING
+Violation Time                        MISSING     MISSING     VARCHAR     MISSING
+amount_due                             DOUBLE      DOUBLE     MISSING     VARCHAR
+api_version                           MISSING     MISSING     MISSING     VARCHAR
+county                                VARCHAR     VARCHAR     MISSING     VARCHAR
+created_at           TIMESTAMP WITH TIME ZONE     VARCHAR     MISSING     VARCHAR
+fine_amount                            DOUBLE      DOUBLE     MISSING     VARCHAR
+interest_amount                        DOUBLE      DOUBLE     MISSING     VARCHAR
+issue_date           TIMESTAMP WITH TIME ZONE     VARCHAR     MISSING     MISSING
+issued_date                           MISSING     MISSING     MISSING     VARCHAR
+issuing_agency                        VARCHAR     VARCHAR     MISSING     VARCHAR
+judgment_entry_date  TIMESTAMP WITH TIME ZONE        JSON     MISSING     VARCHAR
+license_type                          VARCHAR     VARCHAR     MISSING     VARCHAR
+payment_amount                         DOUBLE      DOUBLE     MISSING     VARCHAR
+penalty_amount                         DOUBLE      DOUBLE     MISSING     VARCHAR
+plate                                 VARCHAR     VARCHAR     MISSING     VARCHAR
+precinct                               BIGINT      BIGINT     MISSING     VARCHAR
+reduction_amount                       DOUBLE      DOUBLE     MISSING     VARCHAR
+state                                 VARCHAR     VARCHAR     MISSING     VARCHAR
+summons_number                         BIGINT      BIGINT     MISSING     VARCHAR
+violation                             VARCHAR     VARCHAR     MISSING     VARCHAR
+violation_status                      VARCHAR     VARCHAR     MISSING     VARCHAR
+violation_time                        VARCHAR     VARCHAR     MISSING     VARCHAR
+
+--- TRAFFIC VIOLATIONS SCHEMA ---
+                 traffic_historic traffic_test1 traffic_test2 traffic_test3
+Age                       MISSING       MISSING       VARCHAR       MISSING
+Birth Month               MISSING       MISSING       VARCHAR       MISSING
+Birth Year                MISSING       MISSING       VARCHAR       MISSING
+County                    MISSING       MISSING       VARCHAR       MISSING
+Points                    MISSING       MISSING       VARCHAR       MISSING
+Violation Code            MISSING       MISSING       VARCHAR       MISSING
+Violation Month           MISSING       MISSING       VARCHAR       MISSING
+Violation Year            MISSING       MISSING       VARCHAR       MISSING
+age                        BIGINT        BIGINT       MISSING       VARCHAR
+birth_date                   DATE          DATE       MISSING       MISSING
+county                    VARCHAR       VARCHAR       MISSING       VARCHAR
+dob_formatted             MISSING       MISSING       MISSING       VARCHAR
+lic_id                    MISSING       MISSING       MISSING       VARCHAR
+license_id                VARCHAR       VARCHAR       MISSING       MISSING
+meta_sys_version          MISSING       MISSING       MISSING       VARCHAR
+points                     BIGINT        BIGINT       MISSING       VARCHAR
+v_code                    MISSING       MISSING       MISSING       VARCHAR
+v_month                   MISSING       MISSING       MISSING       VARCHAR
+v_year                    MISSING       MISSING       MISSING       VARCHAR
+violation_code            VARCHAR       VARCHAR       MISSING       MISSING
+violation_month            BIGINT        BIGINT       MISSING       MISSING
+violation_year             BIGINT        BIGINT       MISSING       MISSING
