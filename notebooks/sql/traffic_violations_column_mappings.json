@@ -1,0 +1,13 @@
+{
+    "License Id": "license_id",
+    "County": "county",
+    "Violation Code": "violation_code",
+    "Violation Year": "violation_year",
+    "Violation Month": "violation_month",
+    "Points": "points",
+    "lic_id": "license_id",
+    "v_code": "violation_code",
+    "v_year": "violation_year",
+    "v_month": "violation_month",
+    "v_points": "points"
+}
